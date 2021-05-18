@@ -53,8 +53,8 @@ def train():
         logging_steps=5,
         learning_rate=1e-4,
         per_device_train_batch_size=8,
-        num_train_epochs=30,
-        gradient_accumulation_steps=16,
+        num_train_epochs=10,
+        gradient_accumulation_steps=4,
         save_total_limit=10
     )
 
